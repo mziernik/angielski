@@ -1,0 +1,31 @@
+﻿wbić się na imprezę : gate crash
+góral : highlander
+chata : cottage
+dłoń : hand
+ramię : shoulder
+szyja : neck
+kciuk : thumb
+nadgarstek : wirst
+łokieć : elbow
+brzuch : belly
+udo : thigh
+palec u nogi : toe
+łydka : calf
+kostka, staw : ankle
+tyłek : bottom
+plecy : back
+ramię : arm
+przedramię : forearm
+pośladki : buttocks
+czoło :  forehead 
+klatka piersiowa, skrzynia : chest
+powieka : eyelid
+ucho : ear
+wąsy : mustache
+broda : beard
+podbródek : chin
+usta : mouth
+policzek : check
+rzęsa : eyelash
+brew : eyebrow
+szczęka : jaw

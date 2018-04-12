@@ -1,0 +1,42 @@
+﻿choroba, dolegliwość : ailment
+bezsenność : insomia
+żółtaczka : jaundice
+białaczka : leukemia
+odra : measles
+świnka : mumps
+dżuma : plague
+wścieklizna : rabies
+wysypka : rash
+różyczka : rubella
+dolegliwość : affliction
+ból pleców : backache
+ból brzucha : bellyache
+ukąszenie : bite
+bąbel, odcisk : blister
+siniak : bruise
+guz : bump
+oparzenie : burn
+dreszcze : chilis
+przeziębienie : a cold
+kaszel : cough
+biegunka : diarrhoe
+kręcić się w głowie : dizzy
+zmęczenie : fatigue
+gorączka : fever
+zatrucie pokarmowe : food poisoning
+złamanie : fracture
+ból głowy : headache
+czkawka : hiccups
+niestrawność : indigestion
+uraz : injury
+mdłość : nausea
+wysypka : rash
+draśnięcie : scrape
+zadrapać : scratch
+ból gardła : core throat
+drzazga : splinter
+skręcenie : sprain
+zawał : stroke
+puchnąć : swell
+ból zęba : toothache
+rana : wound

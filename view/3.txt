@@ -1,0 +1,16 @@
+﻿zacięty : heated
+zator, korek : jam
+lawina : avalanche
+pękający : crackling
+skrobać : scrape
+jemioła, ostrokrzew : holly
+mgła, kurz, poświata : hazy
+ocieplenie : insulated
+zachmurzenie : overcast
+sopel : icicle
+grad : hail
+puch, proszek : powder
+para : vapor
+mokry śnieg : sleet
+opad : precipitation
+odwilż : melt

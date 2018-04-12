@@ -1,0 +1,36 @@
+{
+  "name": "angielski",
+  "version": "0.1.0",
+  "description": "A Node.js app using the SparkPost Heroku add-on",
+  "main": "index.js",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "jquery": "^3.0.0",
+    "redis": "^2.8.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node %NODE_DEBUG_OPTION% index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkPost/heroku-node-js-example.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "email",
+    "sparkpost"
+  ],
+  "author": "SparkPost",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SparkPost/heroku-node-js-example/issues"
+  },
+  "homepage": "https://github.com/SparkPost/heroku-node-js-example#readme"
+}
