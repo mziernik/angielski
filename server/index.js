@@ -11,11 +11,12 @@ const DICT = {};
 const basicAuth = require('basic-auth-connect');
 var username = null;
 
+/*
 app.use(basicAuth(function (user, pass) {
     username = user;
     return ('angielski' === user || user === 'milosz') && 'slowka' === pass;
 }));
-
+*/
 
 app.set('port', (process.env.PORT || 5000));
 

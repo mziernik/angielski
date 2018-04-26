@@ -1,7 +1,0 @@
-{
-  "name": "SparkPost Node.js Example",
-  "description": "A Node.js app using the SparkPost Heroku add-on",
-  "repository": "https://github.com/SparkPost/heroku-node-js-example",
-  "keywords": ["node", "express", "sparkpost", "email"],
-  "addons": [ "sparkpost:200k" ]
-}
