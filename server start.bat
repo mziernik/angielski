@@ -1,1 +1,2 @@
-npm start
+@echo off
+cmd /k npm start

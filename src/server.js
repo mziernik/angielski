@@ -18,14 +18,18 @@ app.use(basicAuth(function (user, pass) {
 }));
 */
 
+const PUBLIC = __dirname + '/../public';
+
+console.log('PUBLIC: ' + PUBLIC);
+
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/view'));
+app.use(express.static(PUBLIC));
 app.use(bodyParser.json());
 
 // views is directory for all template files
-app.set('views', __dirname + '/view');
-app.set('view engine', 'ejs');
+//app.set('views', '../public');
+//app.set('view engine', 'ejs');
 
 // routes
 app.get('/', function (request, response) {

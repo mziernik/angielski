@@ -1,36 +1,66 @@
 {
-  "name": "angielski",
-  "version": "0.1.0",
-  "description": "A Node.js app using the SparkPost Heroku add-on",
-  "main": "index.js",
-  "dependencies": {
-    "basic-auth-connect": "^1.0.0",
-    "body-parser": "^1.14.1",
-    "bootstrap": "^3.3.5",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "jquery": "^3.0.0",
-    "redis": "^2.8.0"
-  },
-  "scripts": {
-    "start": "node ./server/index.js",
-    "debug": "node %NODE_DEBUG_OPTION% index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SparkPost/heroku-node-js-example.git"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express",
-    "email",
-    "sparkpost"
-  ],
-  "author": "SparkPost",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/SparkPost/heroku-node-js-example/issues"
-  },
-  "homepage": "https://github.com/SparkPost/heroku-node-js-example#readme"
+    "name": "angielski",
+    "version": "0.1.12",
+    "description": "A Node.js app using the SparkPost Heroku add-on",
+    "main": "./server/index.js",
+    "author": "Miłosz Ziernik",
+    "license": "Apache-2.0",
+    "homepage": "https://angielski.herokuapp.com",
+    "scripts": {
+        "start": "npm run build && node ./src/server.js",
+        "debug": "cross-env NODE_ENV=dev webpack-dev-server --colors",
+        "dev": " webpack-dashboard -- webpack-dev-server",
+        "build": "cross-env NODE_ENV=production webpack --env.patch --progress",
+        "build DEV": "cross-env NODE_ENV=dev webpack",
+        "build TEST": "cross-env NODE_ENV=test webpack --env.patch --progress",
+        "build DEMO": "cross-env NODE_ENV=demo webpack --env.patch --progress",
+        "build PROD": "cross-env NODE_ENV=production webpack --env.patch --progress"
+    },
+    "dependencies": {
+        "basic-auth-connect": "^1.0.0",
+        "body-parser": "^1.14.1",
+        "bootstrap": "^3.3.5",
+        "ejs": "^2.5.9",
+        "express": "^4.16.3",
+        "jquery": "^3.2.1",
+        "python-shell": "^0.5.0",
+        "redis": "^2.8.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^7.1",
+        "babel-plugin-transform-class-properties": "^6.22.0",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-transform-react-inline-elements": "^6.22.0",
+        "babel-plugin-transform-runtime": "^6.22.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-es2015": "6.24.1",
+        "babel-preset-es2016": "^6.24.1",
+        "babel-preset-flow": "^6.23.0",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-runtime": "^6.22.0",
+        "cross-env": "^5.0.5",
+        "css-loader": "0.28.7",
+        "enzyme": "^3.0.0",
+        "eslint-plugin-jest": "^21.2.0",
+        "extract-text-webpack-plugin": "^3.0.0",
+        "file-loader": "^0.11.2",
+        "flow-bin": "^0.57.3",
+        "html-webpack-plugin": "^2.30.1",
+        "open-browser-webpack-plugin": "0.0.5",
+        "postcss-loader": "^2.0.6",
+        "python": "0.0.4",
+        "sass-loader": "^6.0.2",
+        "style-loader": "0.18.2",
+        "url-loader": "0.5.9",
+        "webpack": "^3.3.0",
+        "webpack-auto-inject-version": "^1.0.0",
+        "webpack-cleanup-plugin": "^0.5.1",
+        "webpack-dashboard": "^1.0.0-5",
+        "webpack-dev-server": "^2.4.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mziernik/angielski.git"
+    }
 }
