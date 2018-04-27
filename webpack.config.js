@@ -15,6 +15,8 @@ const PACKAGE = require("./package.json");
 const HOST = process.env.HOST || "127.0.0.1";
 const PORT = process.env.PORT || "3000";
 
+const SRC = './src';
+
 if (!NODE_ENV)
     throw new Error('Brak definicji zmiennej środowiskowej "NODE_ENV"');
 
@@ -28,7 +30,7 @@ for (let name in env)
 
 
 module.exports = {
-    entry: ['./src/Index.js'],
+    entry: [SRC + '/Index.js'],
     devtool: PROD ? false : 'source-map',
     output: {
         publicPath: '/',
@@ -77,10 +79,10 @@ module.exports.plugins = [
         "window.$": "jquery"
     }),
     new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: SRC + '/index.html',
+		favicon: SRC + '/favicon.ico',
         files: {
-            title: 'Angielski',
-			favicon: 'favicon.ico',
+            title: PACKAGE.name,			
             js: ["bundle.js"],
         }
     }),

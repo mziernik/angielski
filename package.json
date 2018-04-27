@@ -1,13 +1,14 @@
 {
-    "name": "angielski",
-    "version": "0.1.12",
+    "name": "Angielski",
+    "version": "0.1.14",
     "description": "A Node.js app using the SparkPost Heroku add-on",
     "main": "./server/index.js",
     "author": "Miłosz Ziernik",
     "license": "Apache-2.0",
     "homepage": "https://angielski.herokuapp.com",
     "scripts": {
-        "start": "npm run build && node ./src/server.js",
+        "start": "npm run build && npm run server",
+        "server": "node ./src/server.js",
         "debug": "cross-env NODE_ENV=dev webpack-dev-server --colors",
         "dev": " webpack-dashboard -- webpack-dev-server",
         "build": "cross-env NODE_ENV=production webpack --env.patch --progress",
