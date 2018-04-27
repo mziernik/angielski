@@ -10,7 +10,7 @@
         "start": "npm run build && npm run server",
         "server": "node ./src/server.js",
         "debug": "cross-env NODE_ENV=dev webpack-dev-server --colors",
-        "dev": " webpack-dashboard -- webpack-dev-server",
+        "devtool": "devtool ./src/server.js --watch",
         "build": "cross-env NODE_ENV=production webpack --env.patch --progress",
         "build DEV": "cross-env NODE_ENV=dev webpack",
         "build TEST": "cross-env NODE_ENV=test webpack --env.patch --progress",

@@ -31,6 +31,7 @@ app.use(bodyParser.json());
 //app.set('views', '../public');
 //app.set('view engine', 'ejs');
 
+
 // routes
 app.get('/', function (request, response) {
     response.render('index');
